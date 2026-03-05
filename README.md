@@ -1,5 +1,4 @@
 # Formular-1
-# Formular-1
 🏎️ Formula 1 Driver Explorer
 
 A visually engaging website that connects Formula 1 drivers, their teams, team principals, and fun facts into one interactive experience.
@@ -8,8 +7,8 @@ This project showcases key F1 drivers, their teams, team principals, driver imag
 
 The goal of this project is to combine web development practice with a passion for Formula 1 racing, creating a fun and informative website for fans and beginners.
 
-🚀 Project Objective
-
+🚀 **Project Objective
+**
 The objective of this project is to build a webpage that displays:
 
 Formula 1 Drivers
@@ -26,7 +25,7 @@ Fun "Did You Know?" facts about each driver
 
 This project helps practice HTML structure, layout design, and organizing content effectively on a webpage.
 
-📂 Project Structure
+📂 **Project Structure**
 Formula1-Drivers-Website
 │
 ├── index.html
@@ -43,7 +42,7 @@ Formula1-Drivers-Website
 │   └── teams/
 │
 └── README.md
-🏁 Drivers Featured
+🏁 **Drivers Featured**
 
 Some of the drivers included in the project:
 
@@ -76,7 +75,7 @@ Each driver profile includes:
 ✔ Fan nickname
 ✔ Fun fact
 
-💻 *Technologies Used*
+💻 **Technologies Used**
 
 This project was built using:
 
@@ -88,7 +87,7 @@ VS Code
 
 Git & GitHub
 
-Future improvements may include:
+**Future improvements may include:**
 
 CSS styling
 
@@ -98,7 +97,7 @@ Interactive elements
 
 JavaScript functionality
 
-🎯 Learning Goals
+🎯 **Learning Goals**
 
 This project helps practice:
 
@@ -106,13 +105,13 @@ Structuring web pages with HTML
 
 Organizing files in a project folder
 
-Using Git "&" GitHub
+Using Git and GitHub
 
 Creating a clean project layout
 
 Building a project based on a real-world theme
 
-🔥 Future Improvements
+🔥 **Future Improvements**
 
 Possible upgrades for this project:
 
@@ -126,12 +125,12 @@ Add animations
 
 Add JavaScript for interactivity
 
-Create search or filter for drivers
+Create a search or filter for drivers
 
-🏎️ Fun Fact
+🏎️ **Fun Fact**
 
 Formula 1 cars can go from 0 to 100 km/h and back to 0 in about 4 seconds, making them some of the fastest racing machines ever built.
 
-👨‍💻 Author
+👨‍💻 **Author**
 
 Created by An-jinchie as part of a Web Development Learning Journey.
