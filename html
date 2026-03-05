@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FORMULAR 1 GRID — 2026 SEASON</title>
+  <subtitle>ALL TO DRIVE FOR!</subtitle>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,300;0,400;0,700;1,400&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Animated Speed Lines Background -->
+  <div class="speed-bg" id="speedBg"></div>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-logo"><em>F1</em> GRID 2025</div>
+    <ul class="nav-links">
+      <li><a href="#drivers">Drivers</a></li>
+      <li><a href="#principals">Teams</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="flag-stripe"></div>
+    <p class="hero-eyebrow">2025 FIA Formula One World Championship</p>
+    <h1 class="hero-title">
+      <span class="glitch" data-text="FULL">FULL</span>
+      <span class="outline">THROTTLE</span>
+    </h1>
+    <p class="hero-subtitle">20 Drivers · 10 Teams · 1 Championship</p>
+    <div class="hero-scroll">SCROLL</div>
+  </section>
+
+  <!-- SCROLLING TICKER BANNER -->
+  <div class="stats-banner">
+    <div class="stats-ticker" id="ticker"></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- DRIVERS SECTION -->
+  <section class="section" id="drivers">
+    <p class="section-label">2025 Season</p>
+    <h2 class="section-title">THE <em>DRIVERS</em></h2>
+    <p class="intro-para">
+      Hover over each driver card to unlock a wild <strong>"Did You Know"</strong> fact.
+      These are the 20 gladiators pushing carbon fibre and human limits to the absolute edge every single race weekend.
+    </p>
+    <div class="driver-grid" id="driverGrid"></div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- TEAM PRINCIPALS SECTION -->
+  <section class="principals-section" id="principals">
+    <p class="section-label">Behind the Wall</p>
+    <h2 class="section-title">TEAM <em>PRINCIPALS</em></h2>
+    <div id="principalsTable"></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">FORMULA ONE</div>
+    <p class="footer-text">All To Drive For! · 2026 Season · All facts verified by the grid itself</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
