@@ -12,7 +12,7 @@ const drivers = [
     teamShort: "Red Bull",
     principal: "Laurent Mekies",
     color: "#3671C6",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png.transform/6col/image.png",
     fallback: "VER",
     fact: "Max took #3 for 2026 — having used #33 as his permanent number and #1 as defending champion. His reaction time is measured at 0.19 seconds, faster than most humans can blink. He once beat professional esports drivers in a sim tournament under a secret alias."
   },
@@ -24,7 +24,7 @@ const drivers = [
     teamShort: "Red Bull",
     principal: "Laurent Mekies",
     color: "#3671C6",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/I/ISAHAD01_Isack_Hadjar/isahad01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/I/ISAHAD01_Isack_Hadjar/isahad01.png.transform/6col/image.png",
     fallback: "HAD",
     fact: "Isack is French-Algerian and dominated F2 in 2024. He stepped up from Racing Bulls to the senior Red Bull seat for 2026, replacing Yuki Tsunoda who became Red Bull's test and reserve driver. Commentators say watching him race is like watching a wild animal that hasn't learned to be tamed."
   },
@@ -36,7 +36,7 @@ const drivers = [
     teamShort: "Ferrari",
     principal: "Frédéric Vasseur",
     color: "#E8002D",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png.transform/6col/image.png",
     fallback: "LEC",
     fact: "Charles is a classically trained pianist who performed at Carnegie Hall in 2023. His godfather was the late Jules Bianchi — making his lifelong commitment to Ferrari feel almost written in destiny. He enters his ninth F1 season in 2026."
   },
@@ -48,7 +48,7 @@ const drivers = [
     teamShort: "Ferrari",
     principal: "Frédéric Vasseur",
     color: "#E8002D",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png.transform/6col/image.png",
     fallback: "HAM",
     fact: "Lewis set the fastest time in the five-day Barcelona pre-season test — already looking electric in red for his second Ferrari season. He holds more F1 records than any driver in history: 7 titles, 100+ wins, 100+ poles. He was knighted by the King of England."
   },
@@ -60,7 +60,7 @@ const drivers = [
     teamShort: "McLaren",
     principal: "Andrea Stella",
     color: "#FF8000",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png.transform/6col/image.png",
     fallback: "NOR",
     fact: "Lando carries #1 into 2026 as the reigning World Champion — his maiden title secured in 2025. He streams on Twitch with millions of followers and once crashed out of a virtual race because a fan spammed his chat mid-corner. He owns a dog named Pickle."
   },
@@ -72,7 +72,7 @@ const drivers = [
     teamShort: "McLaren",
     principal: "Andrea Stella",
     color: "#FF8000",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png.transform/6col/image.png",
     fallback: "PIA",
     fact: "Oscar led the 2025 World Championship for most of the season only to finish third — one of the most dramatic late-season collapses in recent memory. He is so calm under pressure that engineers joke his heartrate never goes above 60bpm at 300km/h."
   },
@@ -84,7 +84,7 @@ const drivers = [
     teamShort: "Mercedes",
     principal: "Toto Wolff",
     color: "#27F4D2",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png.transform/6col/image.png",
     fallback: "RUS",
     fact: "George earned his nickname because he almost always goes fastest on Saturdays. He collected two wins in 2025 to help Mercedes climb to second in the Constructors' Championship. He studied engineering at Cambridge while racing full time."
   },
@@ -96,7 +96,7 @@ const drivers = [
     teamShort: "Mercedes",
     principal: "Toto Wolff",
     color: "#27F4D2",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/A/ANDANT01_Andrea_Kimi_Antonelli/andant01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/A/ANDANT01_Andrea_Kimi_Antonelli/andant01.png.transform/6col/image.png",
     fallback: "ANT",
     fact: "Antonelli set the fastest time at the Bahrain pre-season test and claimed his maiden race victory early in the 2026 season. In his rookie 2025 year he scored three podiums. Mercedes bypassed F3 entirely to fast-track him — that level of confidence is almost unheard of."
   },
@@ -108,7 +108,7 @@ const drivers = [
     teamShort: "Williams",
     principal: "James Vowles",
     color: "#64C4FF",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png.transform/6col/image.png",
     fallback: "SAI",
     fact: "Carlos is the son of a two-time World Rally Champion yet chose tarmac over dirt. He won his first F1 race in Singapore 2023 just weeks after appendix surgery — racing with a literally healing body and still won. His nickname 'Chili' comes from his fiery competitive spirit."
   },
@@ -120,7 +120,7 @@ const drivers = [
     teamShort: "Williams",
     principal: "James Vowles",
     color: "#64C4FF",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png.transform/6col/image.png",
     fallback: "ALB",
     fact: "Alex is half Thai, half British — and a national icon in Thailand where he is more famous than most footballers. He was dropped by Red Bull, nearly quit F1, then rebuilt his career from scratch at Williams. He once had emergency surgery mid-season and returned the very next weekend."
   },
@@ -132,7 +132,7 @@ const drivers = [
     teamShort: "Racing Bulls",
     principal: "Alan Permane",
     color: "#6692FF",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/L/LIALAW01_Liam_Lawson/lialaw01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/L/LIALAW01_Liam_Lawson/lialaw01.png.transform/6col/image.png",
     fallback: "LAW",
     fact: "Liam is New Zealand's most exciting F1 prospect in a generation. He subbed for Ricciardo mid-season, impressed everyone, lost the seat, got it back — then was passed over for Red Bull promotion in favour of Hadjar. He drives like someone with absolutely nothing to lose."
   },
@@ -144,7 +144,7 @@ const drivers = [
     teamShort: "Racing Bulls",
     principal: "Alan Permane",
     color: "#6692FF",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/A/ARVLIN01_Arvid_Lindblad/arvlin01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/A/ARVLIN01_Arvid_Lindblad/arvlin01.png.transform/6col/image.png",
     fallback: "LIN",
     fact: "Arvid Lindblad is the only true rookie on the 2026 grid — promoted straight from F2 via the Red Bull Academy at just 18 years old. The young Swede has Red Bull's full backing and 22 Grands Prix to prove he belongs. No pressure."
   },
@@ -156,7 +156,7 @@ const drivers = [
     teamShort: "Aston Martin",
     principal: "Adrian Newey",
     color: "#358C75",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png.transform/6col/image.png",
     fallback: "ALO",
     fact: "Fernando is the most experienced driver on the 2026 grid. Fans call him 'The Astronaut' because he seems ageless at 44 — possibly not human. He now works under the legendary Adrian Newey, a combination the entire paddock is watching closely. He once kayaked across a lake to make a press conference on time."
   },
@@ -168,7 +168,7 @@ const drivers = [
     teamShort: "Aston Martin",
     principal: "Adrian Newey",
     color: "#358C75",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png.transform/6col/image.png",
     fallback: "STR",
     fact: "Lance's father Lawrence Stroll bought Aston Martin F1 — making Lance the ultimate 'landlord'. Despite the memes, Lance scored podiums at age 19 in a Williams so bad others couldn't finish. He enters 2026 for a fifth consecutive Aston Martin season, now with Adrian Newey designing the car."
   },
@@ -180,7 +180,7 @@ const drivers = [
     teamShort: "Haas",
     principal: "Ayao Komatsu",
     color: "#B6BABD",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png.transform/6col/image.png",
     fallback: "OCO",
     fact: "Esteban's family sold their house and lived in a camper van to fund his karting dream. He has a photographic memory and can recite every corner of every F1 circuit purely from memory. He enters his second season at Haas looking to take the next step."
   },
@@ -192,7 +192,7 @@ const drivers = [
     teamShort: "Haas",
     principal: "Ayao Komatsu",
     color: "#B6BABD",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/O/OLIBEA01_Oliver_Bearman/olibea01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/O/OLIBEA01_Oliver_Bearman/olibea01.png.transform/6col/image.png",
     fallback: "BEA",
     fact: "Oliver debuted mid-race in Saudi Arabia 2024, found out hours before qualifying, and finished 7th on his very first lap in an F1 car. His impressive 2025 debut season — regularly scoring points in the second half of the year — earned him the title 'the most unflappable teenager in motorsport history.'"
   },
@@ -204,7 +204,7 @@ const drivers = [
     teamShort: "Audi",
     principal: "Mattia Binotto",
     color: "#C00000",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png.transform/6col/image.png",
     fallback: "HUL",
     fact: "Nico finally got his first F1 podium at Silverstone 2025 — in his 238th attempt. The entire paddock erupted. He holds a commercial pilot's license and once flew himself to a race weekend. His nickname 'The Hulk' is literally just an English translation of his German surname."
   },
@@ -216,7 +216,7 @@ const drivers = [
     teamShort: "Audi",
     principal: "Mattia Binotto",
     color: "#C00000",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/G/GABBOR01_Gabriel_Bortoleto/gabbor01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/G/GABBOR01_Gabriel_Bortoleto/gabbor01.png.transform/6col/image.png",
     fallback: "BOR",
     fact: "Gabriel is the reigning F2 Champion — managed by none other than Fernando Alonso. Brazil hasn't had a race-winning calibre rookie in years and the entire nation is watching. He reportedly ran 10,000 simulator laps before his first race. The pressure is immense. He doesn't seem to notice."
   },
@@ -228,7 +228,7 @@ const drivers = [
     teamShort: "Alpine",
     principal: "Steve Nielsen",
     color: "#FF69B4",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png.transform/6col/image.png",
     fallback: "GAS",
     fact: "Pierre won the 2020 Italian GP at Monza in a near-miracle — his car had absolutely no right to win. He cried uncontrollably on the podium. He is a fashion icon who appeared in Vogue France and is reportedly the most legendary party host in the entire paddock."
   },
@@ -240,7 +240,7 @@ const drivers = [
     teamShort: "Alpine",
     principal: "Steve Nielsen",
     color: "#FF69B4",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/F/FRACOL01_Franco_Colapinto/fracol01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/F/FRACOL01_Franco_Colapinto/fracol01.png.transform/6col/image.png",
     fallback: "COL",
     fact: "Franco only found out he had a full-time 2026 seat in the final handful of races of 2025. The Argentine is the only driver on the grid yet to score a World Championship point. He replaced Jack Doohan mid-season and never looked back — 2026 is his chance to prove it was no fluke."
   },
@@ -252,7 +252,7 @@ const drivers = [
     teamShort: "Cadillac",
     principal: "Graeme Lowdon",
     color: "#CC0000",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png.transform/6col/image.png",
     fallback: "PER",
     fact: "Checo is a national hero in Mexico — F1 race days are practically public holidays there. His Red Bull contract was terminated by mutual agreement at the end of 2024 after a difficult season. He returns to F1 after a year out, joining brand new Cadillac with a serious point to prove."
   },
@@ -264,7 +264,7 @@ const drivers = [
     teamShort: "Cadillac",
     principal: "Graeme Lowdon",
     color: "#CC0000",
-    photo: "https://www.formula1.com/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png.transform/2col/image.png",
+    photo: "https://www.formula1.com/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png.transform/6col/image.png",
     fallback: "BOT",
     fact: "Valtteri is one of F1's most famously candid personalities — brutally honest in interviews, zero filter. A champion cyclist in his spare time, he spent 2025 as Mercedes' reserve driver before Cadillac handed him a full-time seat. He brings over 200 race starts to F1's newest team."
   }
