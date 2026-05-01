@@ -1,10 +1,8 @@
-// =============================================
-//  F1 GRID 2026 — JAVASCRIPT
-// =============================================
+//F1 GRID 2026 — JAVASCRIPT//
 
-// =============================================
-//  DATA: DRIVERS
-// =============================================
+
+//DATA: DRIVERS//
+
 const drivers = [
   {
     number: 3,
@@ -272,9 +270,8 @@ const drivers = [
   }
 ];
 
-// =============================================
-//  DATA: TEAMS & PRINCIPALS
-// =============================================
+//DATA: TEAMS & PRINCIPALS//
+
 const teams = [
   { name: "McLaren Mastercard F1 Team",     principal: "Andrea Stella",    drivers: "Lando Norris · Oscar Piastri",        color: "#FF8000" },
   { name: "Mercedes-AMG Petronas F1 Team",  principal: "Toto Wolff",       drivers: "George Russell · Kimi Antonelli",     color: "#27F4D2" },
@@ -289,9 +286,9 @@ const teams = [
   { name: "Cadillac F1 Team",               principal: "Graeme Lowdon",    drivers: "Sergio Pérez · Valtteri Bottas",      color: "#CC0000" },
 ];
 
-// =============================================
-//  CUSTOM CURSOR
-// =============================================
+
+//CUSTOM CURSOR//
+
 const cursor     = document.getElementById('cursor');
 const cursorRing = document.getElementById('cursorRing');
 
@@ -305,9 +302,9 @@ document.addEventListener('mousemove', (e) => {
   }, 80);
 });
 
-// =============================================
+
 //  ANIMATED SPEED LINES
-// =============================================
+
 const speedBg = document.getElementById('speedBg');
 
 for (let i = 0; i < 20; i++) {
@@ -319,9 +316,8 @@ for (let i = 0; i < 20; i++) {
   speedBg.appendChild(line);
 }
 
-// =============================================
-//  SCROLLING TICKER
-// =============================================
+//SCROLLING TICKER//
+
 const ticker = document.getElementById('ticker');
 
 const tickerItems = [
@@ -351,9 +347,8 @@ doubled.forEach((item) => {
   ticker.appendChild(el);
 });
 
-// =============================================
-//  BUILD DRIVER CARDS
-// =============================================
+//BUILD DRIVER CARDS//
+
 const grid = document.getElementById('driverGrid');
 
 drivers.forEach((d) => {
@@ -406,9 +401,8 @@ drivers.forEach((d) => {
   grid.appendChild(card);
 });
 
-// =============================================
-//  BUILD TEAM PRINCIPALS TABLE
-// =============================================
+//BUILD TEAM PRINCIPALS TABLE//
+
 const ptable = document.getElementById('principalsTable');
 
 teams.forEach((t) => {
