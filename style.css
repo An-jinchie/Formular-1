@@ -1,6 +1,8 @@
-/*FORMULAR 1 GRID 2026 — STYLESHEET*/
+/* =============================================
+   F1 GRID 2026 — STYLESHEET
+   ============================================= */
 
-/*CSS Variables (Global Colours & Fonts)*/
+/* --- CSS Variables (Global Colours & Fonts) --- */
 :root {
   --red: #e8002d;
   --gold: #f5c518;
@@ -12,7 +14,7 @@
   --muted: #888;
 }
 
-/*Reset & Base*/
+/* --- Reset & Base --- */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -31,7 +33,9 @@ body {
   cursor: none;
 }
 
-/*CUSTOM CURSOR*/
+/* =============================================
+   CUSTOM CURSOR
+   ============================================= */
 .cursor {
   width: 14px;
   height: 14px;
@@ -62,7 +66,9 @@ body {
   opacity: 0.6;
 }
 
-/*SPEED LINES BACKGROUND*/
+/* =============================================
+   SPEED LINES BACKGROUND
+   ============================================= */
 .speed-bg {
   position: fixed;
   inset: 0;
@@ -87,7 +93,9 @@ body {
   100% { transform: translateX(200%); opacity: 0; }
 }
 
-/*NAVIGATION*/
+/* =============================================
+   NAVIGATION
+   ============================================= */
 nav {
   position: fixed;
   top: 0;
@@ -134,7 +142,9 @@ nav {
   color: var(--neon);
 }
 
-/*HERO SECTION*/
+/* =============================================
+   HERO SECTION
+   ============================================= */
 .hero {
   position: relative;
   z-index: 1;
@@ -230,7 +240,9 @@ nav {
   margin: 0 auto;
 }
 
-/*ANIMATIONS*/
+/* =============================================
+   ANIMATIONS
+   ============================================= */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(40px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -284,7 +296,9 @@ nav {
   96% { transform: translate(2px, -2px); }
 }
 
-/*TICKER BANNER*/
+/* =============================================
+   TICKER BANNER
+   ============================================= */
 .stats-banner {
   position: relative;
   z-index: 1;
@@ -321,7 +335,9 @@ nav {
   100% { transform: translateX(-50%); }
 }
 
-/*DIVIDER*/
+/* =============================================
+   DIVIDER
+   ============================================= */
 .divider {
   position: relative;
   z-index: 1;
@@ -330,7 +346,9 @@ nav {
   opacity: 0.4;
 }
 
-/*SECTION LAYOUT*/
+/* =============================================
+   SECTION LAYOUT
+   ============================================= */
 .section {
   position: relative;
   z-index: 1;
@@ -372,14 +390,16 @@ nav {
   padding-left: 1.5rem;
 }
 
-/*DRIVER CARDS GRID*/
+/* =============================================
+   DRIVER CARDS GRID
+   ============================================= */
 .driver-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2px;
 }
 
-/*Individual Card*/
+/* --- Individual Card --- */
 .driver-card {
   position: relative;
   height: 420px;
@@ -402,7 +422,7 @@ nav {
   justify-content: flex-end;
 }
 
-/*Card Front*/
+/* --- Card Front --- */
 .driver-photo {
   position: absolute;
   inset: 0;
@@ -490,7 +510,7 @@ nav {
   text-transform: uppercase;
 }
 
-/*Card Back*/
+/* --- Card Back --- */
 .card-back {
   transform: translateY(100%);
   display: flex;
@@ -544,7 +564,9 @@ nav {
   letter-spacing: 0.1em;
 }
 
-/*TEAM PRINCIPALS*/
+/* =============================================
+   TEAM PRINCIPALS
+   ============================================= */
 .principals-section {
   position: relative;
   z-index: 1;
@@ -605,7 +627,9 @@ nav {
   letter-spacing: 0.05em;
 }
 
-/*FOOTER*/
+/* =============================================
+   FOOTER
+   ============================================= */
 footer {
   position: relative;
   z-index: 1;
